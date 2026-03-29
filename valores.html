@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Valores · Farmacia La Rambla</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">
+    <div class="cruz">+</div>
+    <div class="nav-logo-text">
+      <span class="brand-name">Farmacia La Rambla</span>
+      <span class="brand-sub">Palma de Mallorca</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="equipo.html">Equipo</a></li>
+    <li><a href="servicios.html">Servicios</a></li>
+    <li><a href="valores.html" class="active">Valores</a></li>
+    <li><a href="consejos.html">Consejos</a></li>
+    <li><a href="ayuda.html">Ayuda</a></li>
+    <li><a href="index.html#contacto" class="nav-cta">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <p class="section-label">Nuestros valores</p>
+  <h1 class="section-title">Lo que nos define</h1>
+  <div class="divider"></div>
+  <p class="page-header-sub">Los principios que guían cada decisión, cada consejo y cada relación que construimos con nuestros pacientes y la comunidad.</p>
+</div>
+
+<!-- STATS STRIP -->
+<div class="valores-stats-strip">
+  <div class="v-stat">
+    <div class="v-stat-num">5</div>
+    <div class="v-stat-label">Valores fundamentales</div>
+  </div>
+  <div class="v-stat">
+    <div class="v-stat-num">+30</div>
+    <div class="v-stat-label">Años siendo fieles a ellos</div>
+  </div>
+  <div class="v-stat">
+    <div class="v-stat-num">100%</div>
+    <div class="v-stat-label">Compromiso con tu salud</div>
+  </div>
+</div>
+
+<!-- VALORES -->
+<section class="valores-section">
+  <p class="valores-sub">Pasa el ratón sobre cada tarjeta para descubrir qué hay detrás de cada uno de nuestros valores.</p>
+  <div class="valores-grid">
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front"><i class="fas fa-hands-holding-heart"></i><h3>Proximidad</h3></div>
+      <div class="flip-back"><h3>Proximidad</h3><p>Estamos cerca de ti en cada momento. Tu bienestar es nuestra razón de ser y te acompañamos en cada paso.</p></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front"><i class="fas fa-handshake"></i><h3>Compromiso</h3></div>
+      <div class="flip-back"><h3>Compromiso</h3><p>Nos comprometemos con tu salud de manera responsable, honesta y constante, sin excepciones.</p></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front"><i class="fas fa-lightbulb"></i><h3>Innovación</h3></div>
+      <div class="flip-back"><h3>Innovación</h3><p>Incorporamos los últimos avances en farmacología y tecnología para ofrecerte siempre lo mejor.</p></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front"><i class="fas fa-star"></i><h3>Excelencia</h3></div>
+      <div class="flip-back"><h3>Excelencia</h3><p>Buscamos la máxima calidad en todo lo que hacemos, desde los productos hasta la atención al paciente.</p></div>
+    </div></div>
+
+    <div class="flip-card"><div class="flip-inner">
+      <div class="flip-front"><i class="fas fa-balance-scale"></i><h3>Coherencia</h3></div>
+      <div class="flip-back"><h3>Coherencia</h3><p>Seguimos una filosofía clara y consistente, manteniendo la coherencia en todas nuestras acciones.</p></div>
+    </div></div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo">
+        <div class="cruz">+</div>
+        <div class="nav-logo-text">
+          <span class="brand-name">Farmacia La Rambla</span>
+          <span class="brand-sub">Palma de Mallorca</span>
+        </div>
+      </a>
+      <p>Cuidando tu salud con proximidad, innovación y excelencia en el corazón de Palma.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li><span>📞 971 711 511</span></li>
+        <li><span>✉ info@farmacialrambla.com</span></li>
+        <li><span>📍 La Rambla, 14 · 07003 Palma</span></li>
+        <li><span>🕐 Todos los días 9:00–22:00</span></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#">Aviso Legal</a></li>
+        <li><a href="#">Política de Privacidad</a></li>
+        <li><a href="#">Política de Cookies</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2025 Farmacia La Rambla. Todos los derechos reservados.</div>
+</footer>
+
+<script>
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 60);
+  });
+</script>
+</body>
+</html>
