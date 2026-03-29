@@ -6,6 +6,13 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "3000", "--directory", "/Users/severiano/Farmacia-project/Pages"],
       "port": 3000
+    },
+    {
+      "name": "farmacia-nextjs",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "-p", "3001"],
+      "cwd": "/Users/severiano/Farmacia-project/farmacia-la-rambla",
+      "port": 3001
     }
   ]
 }

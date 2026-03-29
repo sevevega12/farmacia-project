@@ -1,7 +1,19 @@
 {
   "permissions": {
     "allow": [
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(gh api:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/tenfoldmarc/website-builder-setup/main/website-builder-setup/SKILL.md\")",
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(~/.npm-global/bin/uipro init:*)",
+      "Bash(claude install-skill:*)",
+      "Bash(npx -y @lobehub/market-cli skills install secondsky-claude-skills-motion --agent claude-code)",
+      "Bash(python3 .claude/skills/ui-ux-pro-max/scripts/search.py \"pharmacy healthcare professional service dark elegant\" --design-system -p \"Farmacia La Rambla\")",
+      "Bash(python3 .claude/skills/ui-ux-pro-max/scripts/search.py \"layout responsive animation\" --stack nextjs)",
+      "Bash(npm run:*)"
     ]
   }
 }
