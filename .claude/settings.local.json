@@ -13,7 +13,14 @@
       "Bash(npx -y @lobehub/market-cli skills install secondsky-claude-skills-motion --agent claude-code)",
       "Bash(python3 .claude/skills/ui-ux-pro-max/scripts/search.py \"pharmacy healthcare professional service dark elegant\" --design-system -p \"Farmacia La Rambla\")",
       "Bash(python3 .claude/skills/ui-ux-pro-max/scripts/search.py \"layout responsive animation\" --stack nextjs)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(find /Users/severiano -maxdepth 6 -name next.config*)",
+      "Read(//private/tmp/**)",
+      "Read(//private/var/folders/**)",
+      "Bash(find /var/folders -maxdepth 8 -name next.config*)",
+      "Bash(git -C /Users/severiano/Farmacia-project log --oneline -10)",
+      "Bash(git -C /Users/severiano/Farmacia-project status)",
+      "Bash(python3 -c \":*)"
     ]
   }
 }
